@@ -10,7 +10,7 @@ Pony.mail(
     :user_name          => 'twasden@gmail.com',
     :password       => '0YlISEFTWTo2',
     :authentication     => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain         => 'heroku.com'  
+    :domain         => 'arcane-citadel-8092.herokuapp.com'  
 
   }
 )

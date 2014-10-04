@@ -15,8 +15,8 @@ class Inquiry
   validates :message,
             :length => { :minimum => 10, :maximum => 1000 }
 
-  # validates :nickname,
-  #           :format => { :with => /$/ }
+  validates :nickname, 
+            :format => { :with => /^$/, multiline: true  }
 
   def initialize(attributes = {})
     attributes.each do |name, value|

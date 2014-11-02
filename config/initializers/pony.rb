@@ -1,7 +1,7 @@
 # config/initializers/pony.#!/usr/bin/env ruby -wKU
 
 Pony.options = {
-  :to => 'twasden@gmail.com',
+  :to => 'abes4info@gmail.com',
   :via => :smtp,
   :via_options => {
     :address              => 'smtp.sendgrid.net',

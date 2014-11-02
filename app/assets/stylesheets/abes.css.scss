@@ -153,3 +153,28 @@ pre{
     }
 
 }
+
+#arrow {
+  background-color:transparent; 
+  border-color:black
+}
+
+#arrow:hover {
+  background-color:rgb(255, 246, 81);
+}
+
+#section2 {
+  background: url(http://followgreenliving.com/wp-content/uploads/2014/07/panel_de_biogas.jpg);
+  background-repeat: no-repeat;
+  background-width: 100%; 
+  height: auto;
+
+}
+
+#current {
+  font-family: "Helvetica";
+  font-size: 65px;
+  padding-top: 12px;
+  padding-bottom: 3px;
+}
+

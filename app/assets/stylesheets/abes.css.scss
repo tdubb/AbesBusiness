@@ -168,9 +168,9 @@ pre{
 
 @media(max-width:767px) {
   .navbar-collapse {
-    background-color: black;
+    background: black;
   }
-  .navbar-collapse li {
+  .navbar-collapse li a {
     color: white;
   }
 }

@@ -108,15 +108,15 @@ pre{
 
 @media (min-width: 979px) { 
   #phone {
-    display: none
+    display: none !important;
   }
 }
 
-@media (max-width: 979px) { 
-  #desktop {
-    display: none
+/*@media (max-width: 979px) { */
+.desktop {
+    display: none !important;
   }
-}
+/*}*/
 
 .navbar-custom a {
     color: #000;
@@ -166,6 +166,14 @@ pre{
 
 }
 
+@media(max-width:767px) {
+  .navbar-collapse {
+    background-color: black;
+  }
+  .navbar-collapse li {
+    color: white;
+  }
+}
 #arrow {
   background-color:transparent; 
   border-color:black

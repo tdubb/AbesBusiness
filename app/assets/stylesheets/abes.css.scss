@@ -106,6 +106,18 @@ pre{
     font-weight: 200;
 }
 
+@media (min-width: 979px) { 
+  #phone {
+    display: none
+  }
+}
+
+@media (max-width: 979px) { 
+  #desktop {
+    display: none
+  }
+}
+
 .navbar-custom a {
     color: #000;
 }

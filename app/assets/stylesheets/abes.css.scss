@@ -106,6 +106,18 @@ pre{
     font-weight: 200;
 }
 
+@media (min-width: 979px) { 
+  #phone {
+    display: none !important;
+  }
+}
+
+/*@media (max-width: 979px) { */
+.desktop {
+    display: none !important;
+  }
+/*}*/
+
 .navbar-custom a {
     color: #000;
 }
@@ -136,7 +148,7 @@ pre{
     outline: 0;
 }
 
-@media(min-width:767px) {
+@media handheld, screen and (min-width:767px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -154,6 +166,14 @@ pre{
 
 }
 
+@media handheld, screen and (max-width:767px) {
+  .navbar-collapse {
+    background: black;
+  }
+  .navbar-collapse li a {
+    color: white;
+  }
+}
 #arrow {
   background-color:transparent; 
   border-color:black
